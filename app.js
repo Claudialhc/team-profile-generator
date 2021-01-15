@@ -70,18 +70,15 @@ inquirer
     }
     if (data.restart === "Yes") {
         application();
-    } else 
-        (data.restart === "No") { 
-            // export information into cards
-        }
+    } else (data.restart === "No") {}
 }).catch(err => {
     console.log(err);
-})));
+}));
 
 
 // below the values are hardcoded
 // in actuality, they should come from inquirer
-const manager = new Manager("Lisa", 9, "lisa@gmail.com", "A123");
+// const manager = new Manager("Lisa", 9, "lisa@gmail.com", "A123");
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 
